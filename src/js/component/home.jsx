@@ -4,6 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./Navbar";
 import Fichas from "./Fichas";
+import { Footer } from "./Footer"
 
 //create your first component
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
 					love!
 				</p>
 			</div>
+			<Footer />
 
 
 		</>
