@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8zMl90ZXh0dXJlX2lsbHVzdHJhdGlvbl9vZl9kYXJrX2FzaF90ZXh0dXJlX3pvb185MTIxMTNmMC0yYjhhLTRlMGMtODE3OC0zMmFhNDM3YjcyZWFfMS5qcGc.jpg");
+    background-size: 100vw 100vh;
+}
 
 .piece {
     width: 150px;
@@ -5,7 +15,7 @@
     border-width: 10px;
     border-style: solid;
     border-image: url("https://i.ibb.co/1fnf0xr/fondo-suelo-textura-madera-gris-oscuro-53876-143082.jpg") 30 round;
-    background-image: url("https://img.freepik.com/foto-gratis/fondo-suelo-textura-madera-gris-oscuro_53876-143082.jpg?t=st=1735817924~exp=1735821524~hmac=9ef8e97d2d5324c72f54a34d79d9d0e7a079ee218993dfb323291ca00bda0712&w=1380");
+    background-image: url("https://i.ibb.co/8XBnLNZ/FONDO-NEGRO.jpg");
 }
 
 .piece:hover {
@@ -31,8 +41,8 @@
 
 .fichas{
     display: flex;
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     background-color:rgb(241, 241, 239);
     justify-content: center;
     align-items: center;
