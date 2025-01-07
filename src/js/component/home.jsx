@@ -4,7 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer"
-import Board from "./Board";
+import Board2 from "./Board2";
 
 //create your first component
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<Board/>
+			<Board2/>
 			
 			
 
